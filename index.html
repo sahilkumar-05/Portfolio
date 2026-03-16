@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sahil Kumar | Backend Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= LOADER ================= -->
+    <div id="loader">
+        <div class="loader-circle"></div>
+    </div>
+
+    <!-- ================= SCROLL PROGRESS ================= -->
+    <div id="progress-bar"></div>
+
+    <!-- ================= CUSTOM CURSOR ================= -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- ================= NAVBAR ================= -->
+    <header id="navbar">
+    
+    <div class="logo">Sahil Kumar</div>
+
+    <!-- MOBILE MENU ICON -->
+    <div class="menu-toggle" id="menu-toggle">
+        ☰
+    </div>
+
+    <nav>
+        <ul id="nav-list">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#stats" class="nav-link">Stats</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#contact" class="nav-link btn-nav">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="theme-toggle">
+        <span></span>
+    </div>
+
+</header>
+
+    <!-- ================= HERO ================= -->
+    <section id="home" class="hero-section">
+
+        <div class="hero-container">
+
+            <div class="hero-text">
+                <h1>Sahil Kumar</h1>
+
+                <h2 class="typing-text">
+                    Backend Software Engineer
+                </h2>
+
+                <p>
+                    Building Secure & Scalable Systems with modern backend architecture,
+                    optimized database design, and clean software engineering principles.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn primary-btn magnetic">Let's Connect</a>
+                    <a href="#projects" class="btn primary-btn magnetic">View Projects</a>
+                    
+                     <a href="assets/Sahil Resume.pdf" download class="btn primary-btn magnetic">
+        Download Resume
+    </a>
+                    
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <!-- Replace image name with your actual file -->
+                <div class="image-glow"></div>
+                <img src="assets/Sahil Kumar.jpg" Sahil Kumar">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-content reveal">
+                <p>
+                I am a Website and Software Developer focused on building scalable digital solutions and high-performance systems. Currently serving as a Tech Director and Marketing Director , I bridge the gap between technical execution and strategic leadership. From architecting secure backend systems to designing intuitive user experiences , I deliver end-to-end applications that solve real-world problems.
+                </p>
+
+                <div class="tech-badges">
+                    <span>ASP.NET Core</span>
+                    <span>Java</span>
+                    <span>PostgreSQL</span>
+                    <span>Entity Framework</span>
+                    <span>REST APIs</span>
+                    <span>Authentication</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= STATS ================= -->
+    <section id="stats" class="section dark-section">
+        <div class="container stats-container">
+
+            <div class="stat-card reveal">
+                <h3 class="counter" data-target="20">0</h3>
+                <p>DSA Problems Solved</p>
+            </div>
+
+            <div class="stat-card reveal">
+                <h3 class="counter" data-target="3">0</h3>
+                <p>Backend Projects</p>
+            </div>
+
+            <div class="stat-card reveal">
+                <h3 class="counter" data-target="2">0</h3>
+                <p>Hackathons</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Highlighted Projects</h2>
+            <div class="projects-grid">
+
+               
+
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="assets/ams.png" alt="Online Voting System Screenshot">
+                    </div>
+                    <div class="project-content">
+                        <h3>ATM Management System</h3>
+                        <p>
+                            A GUI-based desktop application built using Java, Swing, and MySQL that simulates basic banking operations like account creat,withdrawal, deposit, and balance inquiry.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>MySQL</span>
+                        </div>
+
+
+                        <button class="open-modal btn small-btn"
+                            onclick="window.open('https://github.com/sahilkumar-05/ATM-Bank-management-system-GUI','_blank')">View
+                            Details</button>
+                    </div>
+                </div>
+
+                <div class="project-card reveal">
+                    <div class="project-image">
+                        <img src="assets/air.png" alt="Online Voting System Screenshot">
+                    </div>
+                    <div class="project-content">
+                        <h3>Airline_Management_System</h3>
+                        <p>
+
+                            A PostgreSQL-based Airline Reservation System with tables for flights, passengers, bookings,
+                            staff, payments, and more. Includes ERD and data for academic or learning use.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>MySQL</span>
+                        </div>
+
+                        <button class="open-modal btn small-btn"
+                            onclick="window.open('https://github.com/sahilkumar-05/Airline_Management_System','_blank')">View
+                            Details</button>
+                    </div>
+                </div>
+
+
+
+                <div class="project-card reveal">
+                    <div class="project-image"> <img src="assets/vot.png" alt="Online Voting System Screenshot"></div>
+                    <div class="project-content">
+                        <h3>Online Voting System</h3>
+                        <p>
+                           A secure web-based Online Voting System built with ASP.NET Core MVC and Entity Framework Core. Features admin panel, voter registration, election management, real-time voting, and results dashboard
+                        </p>
+
+                        <div class="project-tech">
+                            <span>ASP.NET</span>
+                            <span>PostgreSQL</span>
+                            <span>JWT</span>
+                        </div>
+
+
+                        <button class="open-modal btn small-btn"
+                            onclick="window.open('https://github.com/sahilkumar-05/Online-Voting-System','_blank')">View
+                            Details</button>
+                    </div>
+                </div>
+
+ <div class="project-card reveal">
+                    <div class="project-image"> <img src="assets/Modern car rental dashboard setup.png"
+                            alt="Online Voting System Screenshot"></div>
+                    <div class="project-content">
+                        <h3>Car Rental System</h3>
+                        <p>
+                            A GUI application for managing a car rental system. It allows users to add cars, manage customers, and handle car rental and return operations through an interactive interface.
+                        </p>
+
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>MySQL</span>
+                        </div>
+
+
+                        <button class="open-modal btn small-btn"
+                            onclick="window.open('https://github.com/yourusername/projectname','_blank')">View
+                            Details</button>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills" class="section dark-section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+
+            <div class="skills-wrapper">
+
+                <div class="skill">
+                    <p>Backend Development</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="70%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <p>Frontend Development</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="90%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Database Systems</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <p>Data Structures</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="75%"></div>
+                    </div>
+                </div>
+
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Experience & Achievements</h2>
+
+            <div class="timeline">
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>HackFest - IBA Karachi</h3><br>
+                        <p>
+                            -> Engaged in intensive techpreneurship sessions to develop innovative solutions under
+                            <br>-> time constraints, demonstrating adaptability and technical expertise.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Tech Director — Zabefest, Szabist University (2025 – 2026) </h3><br>
+                        <p>
+                            -> Managing technical operations and coordinating tech teams for Zabefest events. <br>->
+                            Overseeing event systems, technical setup, and digital coordination.
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Marketing Director — ACM Society, Szabist University(2025 –2026): </h3><br>
+                        <p>-> Leading marketing strategies and promotional campaigns for ACM events and
+                            activities.<br>-> Managing a team to increase student engagement and event participation.
+
+
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Brand Ambassador — Developers Day, FAST University (2026): </h3><br>
+                        <p>-> Represented Developers Day and promoted the event within the student community.<br>->
+                            Assisted in outreach and engagement with students and tech enthusiasts.
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>TechWhiz Competition</h3><br>
+                        <p>-> Developed a responsive website during the competition.<br>
+                            -> Demonstrated problem-solving and web development skills** under time constraints.
+
+                        </p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+   <section id="contact" class="section dark-section">
+    <div class="container">
+
+        <h2 class="section-title">Let's Connect</h2>
+
+        <div class="social-connect">
+
+            <a href="https://github.com/sahilkumar-05" target="_blank" class="social-tab">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/sahil-kumar005/" target="_blank" class="social-tab">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+
+            <a href="mailto:heresahil41@gmail.com" class="social-tab">
+                <i class="fas fa-envelope"></i>
+                <span>Email</span>
+            </a>
+
+            <a href="https://instagram.com/sahilkumar_05_" target="_blank" class="social-tab">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+            </a>
+
+        </div>
+
+    </div>
+</section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <p>© 2026 Sahil Kumar. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Modal -->
+
+
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

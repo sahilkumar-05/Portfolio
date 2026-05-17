@@ -4,7 +4,7 @@ window.addEventListener("load", () => {
     setTimeout(() => {
         loader.style.opacity = "0";
         loader.style.pointerEvents = "none";
-        loader.style.transition = "0.6s";
+        loader.style.transition = "0.1s";
     }, 800);
 });
 
